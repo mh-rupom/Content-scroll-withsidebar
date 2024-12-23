@@ -1,0 +1,60 @@
+.cs_container{
+    padding: 12px 32px 12px 32px;
+}
+.cs_container header ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 42px;
+}
+.cs_container header li{
+    list-style: none;
+}
+.cs_container header li a{
+    text-decoration: none;
+}
+.cs_content_sidebar{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.cs_content{
+    width: 80%;
+    padding: 0 42px 0px 42px;
+}
+h2,h3,p{
+    margin: 0;
+}
+.cs_sidebar{
+    width: 15%;
+    background: rgb(223, 223, 223);
+    padding: 12px 32px 42px 32px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+    direction: rtl;
+    
+}
+.cs_sidebar .sidebar_item{
+    padding: 7px 8px;
+    direction: ltr;
+    border-radius: 4px;
+}
+.cs_sidebar .item_h3{
+    margin-left: 12px;
+}
+.item_h2_or_h3{
+    margin: 24px 0 8px 0;
+}
+.item_h2_or_h3:first-child{
+    margin: 0 0 8px 0 !important;
+}
+.cs_sidebar::-webkit-scrollbar-thumb {
+    border-radius: 8px; 
+    background-color: darkgrey;
+}
+.cs_sidebar::-webkit-scrollbar {
+    width: 6px;
+}
